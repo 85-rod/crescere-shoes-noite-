@@ -1,0 +1,80 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#produtos, #formulario{
+	width:48%;
+}
+
+#produtos{
+	float:left;
+	margin-top:40px;
+	padding-left:30px;
+	border-right:3px solid black;
+}
+
+#formulario{
+	float:right;
+	padding:40px 10px 0px 10px;
+}
+
+fieldset{
+	padding:20px 0px 20px 20px;
+}
+
+h1{
+	margin-bottom:15px;
+}
+
+#cadastrar{
+	margin-top:10px;
+	padding:5px 10px;
+	border-radius:10px;
+}
+
+.produto{
+	width:400px;
+	margin:auto;
+}
+
+.negrito{
+	font-weight:bold;
+}
+
+.logo{
+	float:left;
+}
+
+.texto{
+	float:right;
+	margin-top:10px;
+	margin-right:30px;
+}
+
+.foto{
+	float:left;
+}
+
+.lista_cores{
+	float:right;
+	list-style-type:none;
+}
+
+.lista_cores li{
+	width:30px;
+	height:30px;
+	border-radius:30px;
+	margin-bottom:10px;
+	border:1px solid black;
+}
+
+#erros div{
+	background-color:red;
+	color:white;
+	padding:10px 0px 10px 20px;
+}
+
+.clear{
+	clear:both;
+}

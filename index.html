@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Crescere Shoes</title>
+		<meta charset="UTF-8" />
+		<script type="text/javascript" src="./engine/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="./engine/funcoes.js"></script>
+		<link rel="stylesheet" type="text/css" href="./estilo/estilo.css" />
+		<link rel="stylesheet" type="text/css" href="./estilo/cores.css" />
+	</head>
+	<body>		
+		<div id="produtos">
+			<h1>Produtos</h1>
+		</div>
+		<div id="formulario">
+			<div id="erros"></div>
+			<h1>Cadastro de Produto</h1>
+			<form action="" method="post">
+				<fieldset>
+					<legend>Dados da Marca</legend>
+					<label for="marca">Marca *: </label><input type="text" id="marca" name="marca" /><br/><br/>
+					<label for="logo">Logo *: </label><input type="text" id="logo" name="logo" /><br/><br/>
+				</fieldset>		
+				<fieldset>
+					<legend>Dados do Produto</legend>
+					<label for="nome_produto">Nome do Produto *: </label><input type="text" id="nome_produto" name="nome_produto" /><br/><br/>
+					<label for="foto">Foto *: </label><input type="text" id="foto" name="foto" /><br/><br/>	
+					<label for="cores">Cores: </label>
+					<select id="cores" name="cores" multiple>
+						<option value="1">Amarelo</option>
+						<option value="2">Azul</option>
+						<option value="3">Branco</option>
+						<option value="4">Cinza</option>
+						<option value="5">Marrom</option>
+						<option value="6">Preto</option>
+					</select>
+				</fieldset>
+				<input type="button" id="cadastrar" name="cadastrar" value="Cadastrar" onclick="cadastrarProduto();" />
+			</form>
+		</div>
+	</body>
+</html>
